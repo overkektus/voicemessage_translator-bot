@@ -1,0 +1,18 @@
+{
+  "name": "grammy-bot",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "grammy": "^1.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.5.4"
+  }
+}
