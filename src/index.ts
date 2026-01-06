@@ -13,7 +13,7 @@ if (!token) {
 const bot = new Bot(token);
 
 bot.command("start", async (ctx) => {
-  await ctx.reply("Привет! Пришли мне сообщение, и я повторю его обратно.");
+  await ctx.reply("Привет! Пришли мне сообщение, и я повторю его обратно!");
 });
 
 bot.on("message:text", async (ctx) => {
